@@ -33,6 +33,19 @@ Please keep the details private until a fixed release is available, or until 90 
 
 We publish a GitHub security advisory for every fixed vulnerability of medium severity or higher that reached a release.
 
+## Safe harbour
+
+If you research this fork in good faith, we will not bring legal action against you for that research, will not refer it to law enforcement, and will not voluntarily support anyone else who does. Good faith means that you:
+
+- test only against your own installation, vaults and accounts;
+- do not access, change, keep or share anyone else's data, and if you reach it by accident, stop, delete what you have and tell us;
+- do not degrade a service other people use;
+- follow the Disclosure section above and do not ask for payment in return for not disclosing.
+
+You may share details earlier with the National Cyber Security Centre or the maintainer of an affected dependency, if you tell us who. This commitment covers research done while this version of the policy is published and binds anyone who later owns this fork. It does not bind anyone else, including Dropbox, Google, Microsoft, the authors of the original Buttercup project or other contributors, and it does not make lawful anything that is otherwise unlawful.
+
+You are responsible for complying with the law where you are. If you are unsure whether something is covered, ask us first at [buttercup@codekunde.net](mailto:buttercup@codekunde.net).
+
 ## Supported versions
 
 Security fixes go into the latest release of each component. A component this fork has not released yet gets them on its `master` branch.
@@ -48,6 +61,7 @@ Security fixes go into the latest release of each component. A component this fo
 
 **Out of scope:**
 
+- CodeKunde's websites and email servers
 - Dropbox, Google, Microsoft and WebDAV servers themselves
 - the original project's unmaintained packages
 - weak master passwords
@@ -57,4 +71,6 @@ Security fixes go into the latest release of each component. A component this fo
 
 ## How this code is checked
 
-The code is reviewed with AI-assisted tools and by the maintainer. It has had no third-party audit.
+Before the first release, the core library, the browser extension and the desktop app's main process were reviewed with Cloudflare's [security-audit-skill](https://github.com/cloudflare/security-audit-skill) (commit `c1c8a8c`), an AI-assisted review tool, run in an isolated sandbox. The maintainer checked each of its findings before acting on it. The other components were reviewed by the maintainer with AI-assisted tools.
+
+None of this is a third-party audit, and the code has not had one.
