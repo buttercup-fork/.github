@@ -20,12 +20,12 @@ Never send a real vault, an export or a real password. A test vault with a test 
 
 ## What to expect
 
-One person maintains this fork in their spare time, so we promise only what one person can keep:
+These are the targets we work to. If we can't meet one, we tell you and say when to expect an answer.
 
-- **Acknowledgement within 7 days.** If you have heard nothing after 7 days, send the report again: mail can get lost.
-- **An assessment within 3 days** for anything that could expose vault contents or the master password without the user's help, and **within 14 days** for everything else. The assessment says whether we could reproduce it, and how severe we rate it.
-- **A fix target that depends on the severity,** counted from when we reproduce it: critical within 7 days, high within 30 days, medium within 90 days or the next release.
-- **Credit** in the advisory and the changelog, under the name you choose, if you want it.
+- **Acknowledgement:** we aim to reply within 7 days. If you have heard nothing after 7 days, please send the report again: mail can get lost.
+- **Assessment:** we aim to tell you within 14 days whether we could reproduce the issue and how severe we rate it. Anything that could expose vault contents or the master password without the user's help goes to the front of the queue.
+- **Fix:** our targets depend on the severity, counted from when we reproduce the issue: critical within 7 days, high within 30 days, medium within 90 days or by the next release.
+- **Credit:** in the advisory and the changelog, under the name you choose, if you want it.
 
 ## Disclosure
 
