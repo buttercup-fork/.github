@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Ask a question
+    url: https://github.com/orgs/buttercup-fork/discussions/categories/q-a
+    about: Questions about using Buttercup go to Discussions.
+  - name: Suggest an idea
+    url: https://github.com/orgs/buttercup-fork/discussions/categories/ideas
+    about: Feature ideas go to Discussions.
+  - name: Report a security problem
+    url: https://github.com/buttercup-fork/.github/blob/master/SECURITY.md
+    about: Never in a public issue or discussion. Report it privately, as the security policy describes.

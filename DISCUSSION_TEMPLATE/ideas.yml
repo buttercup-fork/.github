@@ -1,0 +1,25 @@
+title: "[Idea] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ideas are welcome. Not every idea can be built, and security fixes come first. Never post a password or a vault file.
+  - type: dropdown
+    id: app
+    attributes:
+      label: Which part of Buttercup?
+      options:
+        - Desktop app
+        - Browser extension
+        - Mobile app
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      description: What would you like Buttercup to do, and what problem does it solve for you?
+    validations:
+      required: true
