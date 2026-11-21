@@ -1,0 +1,36 @@
+title: "[Question] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for asking. Before you post:
+
+        - **Never post a password, a vault file (`.bcup`), a master password or a screenshot that shows them.** Nobody from Buttercup will ever ask for them, here or anywhere else. If someone does, it isn't us.
+        - **Found a security problem?** Don't post it here: report it privately as described in the [security policy](https://github.com/buttercup-fork/.github/blob/master/SECURITY.md).
+        - Something is clearly broken? An issue in the app's repository is the better place.
+  - type: dropdown
+    id: app
+    attributes:
+      label: Which part of Buttercup?
+      options:
+        - Desktop app
+        - Browser extension
+        - Core library
+        - Something else
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version and system
+      description: For example "Desktop 3.0.0 on Windows 11" or "Extension 4.0.0 in Firefox 135 on Ubuntu 24.04".
+    validations:
+      required: false
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+      description: What are you trying to do, and what happened instead?
+    validations:
+      required: true
